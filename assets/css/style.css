@@ -1,0 +1,159 @@
+
+body{
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+.section1{
+    padding: 100px 10px 20px 10px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header-banner.jpg');
+    background-size: cover;
+    height:100%;
+}
+img{
+    width:100%;
+    max-width:350px;
+    margin:auto;
+    padding-left:60px;
+}
+.col-md-4{
+    align-items: center;
+    padding:0px 40px 0px 40px;
+}
+
+.RegForm{
+    background-color:white;
+    border: 1px solid grey;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+
+}
+.formHeading{
+    font-size: 26px;
+    color:#01A9DB;
+}
+.col-md-8{
+    text-align: center;
+    width:100%;
+}
+.info{
+    max-width: 80%;
+    margin:auto;
+    padding-top: 108px;
+
+}
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+.section2{
+    background-color: #F7F3F3;
+    padding:30px;
+    color: grey;
+}
+.S2content{
+    padding-top: 20px;
+}
+.imgDiv{
+    padding-left: 0px;
+
+}
+.section3{
+    background-color: white;
+    color:#3B3B3B ;
+    text-align: center;
+    padding:10px;
+}
+.S3Part1{
+    background-image: url("../images/world-map-dot.png") ;
+    text-align: center;
+    background-size: contain;
+    border-right: 1px solid #D6DBDF;
+}
+.PageHeading{
+    text-align: center;
+    padding:20px;
+}
+
+.smilie{
+    padding-top:50px;
+    padding-bottom: 30px;
+}
+.no1, .no3,.no2,.no4{
+    padding: 20px 0px 20px 0px;
+}
+
+#no1, #no2, #no3, #no4{
+    padding-bottom: 20px;
+}
+#no1{
+    color:#06D8D5;
+}
+#no2{
+    color:#FFC300;
+}
+#no3{
+    color:#06D842;
+}
+#no4{
+    color:#FF5733  ;
+}
+#num{
+    font-size: 60px;
+}
+#smilie{
+    color:#6EC9D7 ;
+    font-size: 120px
+}
+.part2{
+    padding:0px 40px 0px 40px;
+}
+@media (min-width: 576px) and (max-width: 767.99px) { 
+    .section1 {
+        padding: 120px 100px 60px 100px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1199.99px) { 
+    .section1 {
+        padding: 120px 60px 60px 60px;
+    }
+    .RegForm{
+        padding: 20px 20px 20px 20px;
+    }
+    .S2content{
+    padding: 20px 0px 0px 50px;
+    }
+    .col-md-4{
+        padding: 0px 0px 0px 20px;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    .section1 {
+        padding: 150px 60px 15px 100px;
+    }
+    .S2content{
+    padding: 20px 50px 0px 50px;
+    }
+    .imgDiv {
+    padding-left: 50px;
+    }
+    .RegForm{
+        padding: 40px 30px 30px 30px;
+        max-width: 400px;
+    }
+    .col-md-4{
+       padding:0px 40px 40px 40px;
+    }
+
+}
+
